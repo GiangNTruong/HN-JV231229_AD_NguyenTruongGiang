@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Avatar, Button, Drawer, List } from "antd";
 import { GlobalContext } from "../context/Global";
-import { DeleteOutlined } from "@ant-design/icons";
+import { CloseOutlined, DeleteOutlined } from "@ant-design/icons";
 
 export default function ShowCard() {
   const {
@@ -23,7 +23,12 @@ export default function ShowCard() {
         onClose={onClose}
         open={open}
         width={800}
-        style={{ backgroundColor: "black", color: "white" }}
+        style={{ backgroundColor: "black", color: "white", height: "auto" }} // height auto
+        closeIcon={<CloseOutlined style={{ color: "white" }} />} //màu nút X
+        styles={{
+          body: { paddingBottom: 80 },
+          header: { color: "white" },
+        }}
       >
         <List
           itemLayout="horizontal"

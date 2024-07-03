@@ -53,14 +53,13 @@ export default function Global() {
 
   //Hàm quản lý số lượng
   const handleUpdateCartQuantity = (productId, quantity) => {
-    // Duyệt qua các sản phẩm hiện có trong giỏ hàng
+    // duyệt các sản phẩm hiện có trong giỏ hàng
     const updatedCarts = carts
-      .map(
-        (cart) =>
-          // Kiểm tra nếu sản phẩm hiện tại khớp với product ID cần cập nhật
-          cart.product.id === productId
-            ? { ...cart, quantity: cart.quantity + quantity } // Cập nhật số lượng
-            : cart // Giữ nguyên các sản phẩm khác
+      .map((cart) =>
+        // kiểm tra nếu sản phẩm hiện tại khớp với product ID cần cập nhật
+        cart.product.id === productId
+          ? { ...cart, quantity: cart.quantity + quantity }
+          : cart
       )
       .filter((cart) => cart.quantity > 0); // Loại bỏ các sản phẩm có số lượng bằng 0 hoặc ít hơn
 
