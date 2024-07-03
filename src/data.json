@@ -1,0 +1,73 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "productName": "Iphone 12 Pro max",
+            "price": 12000000,
+            "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6443/6443061_sd.jpg"
+        },
+        {
+            "id": 2,
+            "productName": "Iphone 13 Pro max",
+            "price": 13000000,
+            "image": "https://www.dslr-zone.com/wp-content/uploads/2021/10/6-1-768x768.jpeg"
+            
+        },
+        {
+            "id": 3,
+            "productName": "Iphone 14 Pro max",
+            "price": 18000000,
+            "image": "https://tse3.mm.bing.net/th?id=OIP.jQVyc1gg0eHY2JCLFX1gfQHaJ3&pid=Api&P=0&h=180"
+            
+        },
+        {
+            "id": 4,
+            "productName": "Iphone 15 Pro max",
+            "price": 18000000,
+            "image": "https://tse3.mm.bing.net/th?id=OIP.jQVyc1gg0eHY2JCLFX1gfQHaJ3&pid=Api&P=0&h=180"
+        
+        },
+        {
+            "id": 5,
+            "productName": "Iphone 16 Pro max",
+            "price": 18000000,
+            "image": "https://tse3.mm.bing.net/th?id=OIP.jQVyc1gg0eHY2JCLFX1gfQHaJ3&pid=Api&P=0&h=180"
+           
+        },
+        {
+            "id": 6,
+            "productName": "Iphone 17 Pro max",
+            "price": 18000000,
+            "image": "https://tse3.mm.bing.net/th?id=OIP.jQVyc1gg0eHY2JCLFX1gfQHaJ3&pid=Api&P=0&h=180"
+            
+        },
+        {
+            "id": 7,
+            "productName": "Iphone 18 Pro max",
+            "price": 18000000,
+            "image": "https://tse3.mm.bing.net/th?id=OIP.jQVyc1gg0eHY2JCLFX1gfQHaJ3&pid=Api&P=0&h=180"
+            
+        },
+        {
+            "id": 8,
+            "productName": "Iphone 19 Pro max",
+            "price": 18000000,
+            "image": "https://tse3.mm.bing.net/th?id=OIP.jQVyc1gg0eHY2JCLFX1gfQHaJ3&pid=Api&P=0&h=180"
+           
+        },
+        {
+            "id": 9,
+            "productName": "Iphone 20 Pro max",
+            "price": 18000000,
+            "image": "https://tse3.mm.bing.net/th?id=OIP.jQVyc1gg0eHY2JCLFX1gfQHaJ3&pid=Api&P=0&h=180"
+            
+        },
+        {
+            "id": 10,
+            "productName": "Iphone 21 Pro max",
+            "price": 18000000,
+            "image": "https://tse3.mm.bing.net/th?id=OIP.jQVyc1gg0eHY2JCLFX1gfQHaJ3&pid=Api&P=0&h=180"
+            
+        }
+    ]
+}
